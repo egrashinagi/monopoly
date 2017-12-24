@@ -1,0 +1,16 @@
+{
+  "name": "monopoly",
+  "version": "0.0.1",
+  "description": "Monopoly game online",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game",
+    "monopoly",
+    "online"
+  ],
+  "author": "Egrashina Galina <gegrashina@gmail.com>",
+  "license": "ISC"
+}
