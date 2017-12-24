@@ -12,5 +12,8 @@
     "online"
   ],
   "author": "Egrashina Galina <gegrashina@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.14.0"
+  }
 }
