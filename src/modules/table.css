@@ -1,0 +1,12 @@
+.table {
+    background-color: #cdffea;
+    width: 800px;
+    height: 800px;
+    text-align: center;
+    border: none;
+}
+
+.table__cell {
+    border: 1px solid gray;
+
+}
