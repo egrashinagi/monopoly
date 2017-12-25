@@ -1,9 +1,10 @@
 .table {
+    text-align: center;
     background-color: #cdffea;
     width: 1000px;
     height: 800px;
-    text-align: center;
     border: none;
+    margin: 0 auto;
 }
 
 .table__cell {
