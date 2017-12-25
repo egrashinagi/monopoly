@@ -4,7 +4,9 @@
   "description": "Monopoly game online",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styles": "sass ./src/style.scss:./dist/style.css",
+    "styles:watch": "scss --watch ./src/style.scss:./dist/style.css"
   },
   "keywords": [
     "game",
@@ -14,6 +16,7 @@
   "author": "Egrashina Galina <gegrashina@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^4.14.0"
+    "eslint": "^4.14.0",
+    "scss": "^0.2.4"
   }
 }
