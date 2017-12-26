@@ -16,3 +16,7 @@ function nextStep() {
     currentPosition = sum;
   }
 }
+
+export {
+  nextStep
+};
