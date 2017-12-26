@@ -1,9 +1,14 @@
-@import "table/table";
-@import "field/field";
+@import "components/field/field";
+@import "components/field__сell/field__сell";
+@import "components/cell__titles/cell__titles";
+@import "components/cell/cell";
+
 
 
 html, body {
   display: flex;
   margin: 0;
   padding: 0;
+
+  font-family:SansSerif, Arial, Serif;
 }
