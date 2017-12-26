@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "styles": "sass ./src/style.scss:./dist/style.css",
-    "styles:watch": "scss --watch ./src/style.scss:./dist/style.css"
+    "styles:watch": "scss --watch ./src/style.scss:./dist/style.css",
+    "start": "webpack"
   },
   "keywords": [
     "game",
@@ -18,5 +19,8 @@
   "dependencies": {
     "eslint": "^4.14.0",
     "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0"
   }
 }
