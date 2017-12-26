@@ -18,6 +18,6 @@ $ npm run styles:watch
 ```
 Build styles 
 ```
-$ npm run styles:watch
+$ npm run styles
 ```
 ```
