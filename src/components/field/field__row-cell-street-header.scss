@@ -5,35 +5,19 @@
   padding: 10px;
   border-bottom: 1px solid black;
 
-  &_yellow {
-    background-color: yellow;
-  }
+  @import "field__row-cell-street-header_yellow";
 
-  &_red {
-    background-color: red;
-  }
+  @import "field__row-cell-street-header_red";
 
-  &_purple {
-    background-color: #c5e7ff;
-  }
+  @import "field__row-cell-street-header_red";
 
-  &_broun {
-    background-color: #93410e;
-  }
+  @import "field__row-cell-street-header_broun";
 
-  &_orange {
-    background-color: #ffa714;
-  }
+  @import "field__row-cell-street-header_orange";
 
-  &_pink {
-    background-color: #cb117b;
-  }
+  @import "field__row-cell-street-header_pink";
 
-  &_blue {
-    background-color: #1322b6;
-  }
+  @import "field__row-cell-street-header_blue";
 
-  &_green {
-    background-color: #3c933a;
-  }
+  @import "field__row-cell-street-header_green";
 }
