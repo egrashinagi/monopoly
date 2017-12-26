@@ -1,77 +1,13 @@
 .field {
   background-color: #cdffea;
 
-  &__row-cell {
-    height: 100px;
-    width: 170px;
-    border: 1px solid black;
-  }
+  @import "field__row-cell";
 
-  &__row-cell-street {
-    display: flex;
-    flex-direction: column;
+  @import "field__row-cell-street";
 
-    height: 100%;
-  }
+  @import "field__row-cell-street-header";
 
-  &__row-cell-street-header {
-    display: flex;
-    height: 50px;
-
-    padding: 10px;
-    border-bottom: 1px solid black;
-
-      &_yellow {
-        background-color: yellow;
-      }
-
-      &_red {
-        background-color: red;
-      }
-
-      &_purple {
-        background-color: #c5e7ff;
-      }
-
-      &_broun {
-        background-color: #93410e;
-      }
-
-      &_orange {
-        background-color: #ffa714;
-      }
-
-      &_pink {
-        background-color: #cb117b;
-      }
-
-      &_blue {
-        background-color: #1322b6;
-      }
-
-      &_green {
-        background-color: #3c933a;
-      }
-  }
-
-  &__row-cell-street-tites {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  &__row-cell-street-tites-text {
-    display: flex;
-    justify-content: center;
-
-    padding: 20px 10px;
-
-    text-transform: uppercase;
-    font-size: larger;
-    font-weight: normal;
-    text-align: center;
-    vertical-align: middle;
-  }
+  @import "field__row-cell-street-titles";
 }
 
 
