@@ -1,3 +1,74 @@
 .field {
   background-color: #cdffea;
 }
+
+.field__row-cell {
+  height: 100px;
+  width: 170px;
+  border: 1px solid black;
+}
+
+.field__row-cell-street {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.field__row-cell-street-header {
+  display: flex;
+  height: 50px;
+  padding: 10px;
+  border-bottom: 1px solid black;
+
+  &_yellow {
+    background-color: yellow;
+  }
+
+  &_red {
+    background-color: red;
+  }
+
+  &_purple {
+    background-color: #c5e7ff;
+  }
+
+  &_broun {
+    background-color: #93410e;
+  }
+
+  &_orange {
+    background-color: #ffa714;
+  }
+
+  &_pink {
+    background-color: #cb117b;
+  }
+
+  &_blue {
+    background-color: #1322b6;
+  }
+
+  &_green {
+    background-color: #3c933a;
+  }
+}
+
+.field__row-cell-street-tites {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.field__row-cell-street-tites-text {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+
+  padding: 20px 10px;
+}
+
+
