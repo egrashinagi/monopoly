@@ -20,5 +20,3 @@ Build styles
 ```
 $ npm run styles
 ```
-```
-    
