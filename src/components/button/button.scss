@@ -1,0 +1,10 @@
+.button {
+  display: flex;
+  justify-content: flex-start;
+  
+  padding: 50px;
+
+  @import "__link/button__link";
+
+  @import "__link-text/button__link-text";
+}

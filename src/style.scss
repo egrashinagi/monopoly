@@ -1,8 +1,11 @@
 @import "components/field/field";
 
+@import "components/button/button";
+
 
 html, body {
   display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
 
