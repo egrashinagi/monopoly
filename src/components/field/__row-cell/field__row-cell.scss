@@ -1,5 +1,7 @@
 &__row-cell {
-    height: 100px;
-    width: 170px;
     border: 1px solid black;
+
+    @import "_size/field__row-cell_size_height";
+
+    @import "_size/field__row-cell_size_width";
 }
