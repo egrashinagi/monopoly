@@ -1,12 +1,11 @@
 &__row-cell-street-titles-text {
   display: flex;
   justify-content: center;
+  align-items: center;
 
   padding: 20px 10px;
 
   text-transform: uppercase;
   font-size: larger;
   font-weight: normal;
-  text-align: center;
-  vertical-align: middle;
 }
