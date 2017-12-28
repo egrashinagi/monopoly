@@ -1,9 +1,10 @@
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
-  devtool: "source-map",
+  devtool: 'source-map',
   watch: true,
   watchOptions: {
     ignored: /node_modules/
@@ -21,9 +22,15 @@ module.exports = {
           use: ['css-loader', 'sass-loader']
         })
       }
+    ],
+    loaders: [
+      { test: /\.html$/, loader: "html-loader" }
     ]
   },
   plugins: [
-    new ExtractTextPlugin('style.css')
+    new HtmlWebpackPlugin({
+      title: 'Custom template',
+      template: './src/index.html',
+    })
   ]
 };
