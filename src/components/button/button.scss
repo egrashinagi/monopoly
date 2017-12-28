@@ -1,7 +1,8 @@
 .button {
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
-  
+
   padding: 50px;
 
   @import "__link/button__link";
