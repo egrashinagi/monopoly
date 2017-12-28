@@ -9,9 +9,9 @@ Monopoly game online
 $ git clone git@https://github.com/egrashinagi/monopoly
 
 ```
-##Development
+## Development
 
-###Run in development mode
+### Run in development mode
 
 ```
 $ npm start
