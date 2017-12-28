@@ -4,10 +4,8 @@
   "description": "Monopoly game online",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "styles": "scss ./src/style.scss:./dist/style.css",
-    "styles:watch": "scss --watch ./src/style.scss:./dist/style.css",
-    "start": "webpack"
+    "build": "webpack",
+    "start": "webpack --watch"
   },
   "keywords": [
     "game",
@@ -17,11 +15,14 @@
   "author": "Egrashina Galina <gegrashina@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^4.14.0",
-    "sass": "^1.0.0-beta.4",
-    "scss": "^0.2.4"
+    "eslint": "^4.14.0"
   },
   "devDependencies": {
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
     "webpack": "^3.10.0"
   }
 }
