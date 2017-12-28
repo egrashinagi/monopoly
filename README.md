@@ -14,9 +14,9 @@ $ git clone git@https://github.com/egrashinagi/monopoly
 ### Styles
 Run build styles in watch  mode
 ```
-$ npm run build
+$ npm run start
 ```
 Build styles 
 ```
-$ npm run start
+$ npm run build
 ```
