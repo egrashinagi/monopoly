@@ -4,7 +4,11 @@
   "description": "Monopoly game online",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --watch"
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egrashinagi/monopoly"
   },
   "keywords": [
     "game",
