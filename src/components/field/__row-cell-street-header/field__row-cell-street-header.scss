@@ -1,4 +1,6 @@
 &__row-cell-street-header {
+  display: flex;
+  flex-shrink: 0;
   padding: 50px;
 
   border-bottom: 1px solid black;
