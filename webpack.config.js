@@ -42,7 +42,7 @@ module.exports = {
   },
   plugins: [
     // new CleanWebpackPlugin(['dist']),
-    new ExtractTextPlugin('style.css'),
+    new ExtractTextPlugin('styles.css'),
     new HtmlWebpackPlugin({
       title: 'Monopoly',
       template: './src/index.html',
