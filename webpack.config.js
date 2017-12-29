@@ -29,9 +29,9 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: '[path][name].[ext]',
-              publicPath: 'dist/assets/',
-              outputPath: 'src/images/'
+              name: '[name].[ext]',
+              publicPath: '/dist',
+              outputPath: '/images/'
             }
           }
         ]
@@ -42,11 +42,16 @@ module.exports = {
     ]
   },
   plugins: [
-    new CleanWebpackPlugin(['dist']),
-    new ExtractTextPlugin('styles.css'),
+    // new CleanWebpackPlugin(['dist']),
+    new ExtractTextPlugin('style.css'),
     new HtmlWebpackPlugin({
-      title: 'Custom template',
+      title: 'Monopoly',
       template: './src/index.html',
     })
-  ]
+  ],
+  devServer: {
+    contentBase: path.join(__dirname, "dist"),
+    compress: true,
+    port: 9000
+  }
 };
